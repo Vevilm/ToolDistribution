@@ -1,0 +1,20 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout !=  null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+
+<div>
+    <h1>Просмотр данных аккаунта</h1>
+    
+    
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

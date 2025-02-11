@@ -1,0 +1,40 @@
+﻿@using ToolDistribution.Enums;
+@model ToolDistribution.Models.DBmodels.Storage
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post" asp-action="Edit">
+    <h1>Редактирование хранилища №@Model.ID</h1>
+    <div class="mb-3">
+        <label asp-for="Name">Название</label>
+        <input asp-for="Name" class="form-control" autocomplete="off" style="width: 30%">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Type">Тип склада</label>
+        <select asp-for="Type" class="form-control" style="width: 20%">
+            @for (int i = 0; i < Enum.GetNames(typeof(StorageType)).Length; i++)
+            {
+                <option value="@Enum.ToObject(typeof(StorageType), i)">@Enum.ToObject(typeof(StorageType), i)</option>
+            }
+        </select>
+        <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Status">Статус</label>
+        <select asp-for="Status" class="form-control" style="width: 20%">
+            @for (int i = 0; i < Enum.GetNames(typeof(StorageStatus)).Length; i++)
+            {
+                <option value="@Enum.ToObject(typeof(StorageStatus), i)">@Enum.ToObject(typeof(StorageStatus), i)</option>
+            }
+        </select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-secondary my-2">Отредактировать</button>
+</form>
+
+
+
+

@@ -1,0 +1,61 @@
+﻿@using ToolDistribution.Models.DBmodels
+@using ToolDistribution.Enums
+@model ToolDistribution.Models.DBmodels.Views.ToolsView
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<br>
+<h1>Информация об инструменте "@Model.ID"</h1>
+<br>
+<div class="row">
+    <div class="col-md-3">Название: </div>
+    <div class="col-md-3">@Model.Name</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Хранилище: </div>
+    <div class="col-md-3" style="width: 30%">@Model.Storage</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Статус: </div>
+    <div class="col-md-3">@Model.Status</div>
+</div>
+<br>
+<h2>Артикул</h2>
+<div class="row">
+    <div class="col-md-3">Код: </div>
+    <div class="col-md-3">@Model.Article</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Описание: </div>
+    <div style="width: 30%" class="col-md-3"><label style="border: none;">@Model.Description</label></div>
+</div>
+<div class="row">
+    <div class="col-md-3">Вес: </div>
+    <div class="col-md-3">@Model.Weight</div>
+</div>
+<br>
+<h2>Хранилище</h2>
+<div class="row">
+    <div class="col-md-3">Код: </div>
+    <div class="col-md-3">@Model.StorageID</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Тип: </div>
+    <div class="col-md-3">@Model.Type</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Статус: </div>
+    <div class="col-md-3">@Model.StorageStatus</div>
+</div>
+<br>
+@if (!User.IsInRole("Рабочий"))
+    {
+<a typeof="btn btn-success" asp-controller="Tools" asp-action="Edit" asp-route-id="@Model.ID" class="btn btn-secondary my-2">Редактировать</a>
+    }
+@* @if (Model.Status == ToolStatus.Доступен.ToString())
+{
+    <a typeof="btn btn-success" asp-controller="Tools" asp-action="ChooseWorker" asp-route-id="@Model.ID" class="btn btn-secondary my-2">Запросить инструмент</a>
+} *@

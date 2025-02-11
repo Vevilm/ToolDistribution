@@ -1,0 +1,51 @@
+﻿@using ToolDistribution.Enums
+@using ToolDistribution.SearchData
+@model UserEditData
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post" asp-action="Edit">
+    <div class="mb-3">
+        <label asp-for="user.Surname" style="width: 30%">Фамилия</label>
+        <input asp-for="user.Surname" class="form-control" autocomplete="off" style="width: 30%">
+        <span asp-validation-for="user.Surname" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="user.Name" style="width: 30%">Имя</label>
+        <input asp-for="user.Name" class="form-control" autocomplete="off" style="width: 30%">
+        <span asp-validation-for="user.Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="user.Patronymic" style="width: 30%">Отчество</label>
+        <input asp-for="user.Patronymic" class="form-control" autocomplete="off" style="width: 30%">
+        <span asp-validation-for="user.Patronymic" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="role" style="width: 30%">Роль в системе:</label>
+        <select asp-for="role" class="form-control" style="width: 30%">
+            @for (int i = 0; i < Enum.GetNames(typeof(UserRoles)).Length; i++)
+            {
+                <option value="@Enum.ToObject(typeof(UserRoles), i)">@Enum.ToObject(typeof(UserRoles), i)</option>
+            }
+        </select>
+        <span asp-validation-for="role" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="user.UserName" style="width: 30%">Логин</label>
+        <input asp-for="user.UserName" class="form-control" autocomplete="off" style="width: 30%">
+        <span asp-validation-for="user.UserName" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="user.Status" style="width: 30%">Статус</label>
+        <select asp-for="user.Status" class="form-control" style="width: 30%">
+            @for (int i = 0; i < Enum.GetNames(typeof(UserStaus)).Length; i++)
+            {
+                <option value="@Enum.ToObject(typeof(UserStaus), i)">@Enum.ToObject(typeof(UserStaus), i)</option>
+            }
+        </select>
+        <span asp-validation-for="user.Status" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-secondary my-2">Отредактировать</button>
+</form>

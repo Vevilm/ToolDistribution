@@ -1,0 +1,89 @@
+﻿@using ToolDistribution.Models.DBmodels
+@using ToolDistribution.Enums
+@model ToolDistribution.SearchData.ToolSearchData
+@{
+}
+
+<form method="post" asp-action="Index">
+    
+    <h1>Инструменты</h1>
+    <form>
+        <input asp-for="Value" class="form-control" autocomplete="off" type="search" style="display: inline; width: 40%;">
+        <select asp-for="Field" class="form-control" style="display: inline; width: 10%;">
+        <option value="Название">Название</option>
+        <option value="Склад">Склад</option>
+    </select>
+        <p style="display: inline;"> Статус</p>
+        <select asp-for="Status" class="form-control" style="display: inline; width: 10%;">
+        <option value="Все">Все</option>
+        @for (int i = 0; i < Enum.GetNames(typeof(ToolStatus)).Length; i++)
+        {
+            <option value="@Enum.ToObject(typeof(ToolStatus), i)">@Enum.ToObject(typeof(ToolStatus), i)</option>
+        }
+    </select>
+        <button type="submit" class="btn btn-primary" style="vertical-align: baseline;">Поиск</button>
+    </form>
+    <br>
+    <h2>Каталог инструментов</h2>
+    <br>
+    <div class="row">
+        <div class="col-md-3"><b>Наименование</b></div>
+        <div class="col-md-3"><b>Статус</b></div>
+        <div class="col-md-3"><b>Склад</b></div>
+    </div>
+    <br>
+    @foreach (var item in Model.Tools)
+    {
+        <div class="row" asp-controller="Tools" asp-action="Details" asp-route-id="@item.ID">
+            <div class="col-md-3"> @item.Name</div>
+            <div class="col-md-3">@item.Status</div>
+            <div class="col-md-4" >@item.Storage</div>
+            <a typeof="btn btn-success" asp-controller="Tools" asp-action="Details" asp-route-id="@item.ID">Подробнее</a>
+        </div>
+        <br>
+    }
+    @if (Model.TotalPages > 1)
+    {
+        <ul class="pagination" style="margin:auto; align-content:center">
+            @if (Model.HasPreviousPage)
+            {
+                <a asp-route-page="@(@Model.PageNumber-1)"
+                   asp-route-searchDataStr="@Model.ToString(@Model.PageNumber-1)"
+                   class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 1.4em; font-size: 12px; ">
+                    Назад
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                </a>
+            }
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item">
+
+                    <a asp-route-page="@i"
+                       asp-route-searchDataStr="@Model.ToString(i)"
+                       class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 0.7em; font-size: 12px; ">
+                        @i
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </a>
+                </li>
+            }
+            @if (Model.HasNextPage)
+
+
+
+            {
+                <a asp-route-page="@(@Model.PageNumber+1)"
+                   asp-route-searchDataStr="@Model.ToString(@Model.PageNumber+1)"
+                   class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 1.4em; font-size: 12px; ">
+                    Вперёд
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                </a>
+            }
+        </ul>
+    }
+
+    <br>
+    @if (!User.IsInRole("Рабочий"))
+    {
+    <a typeof="btn btn-success" asp-controller="Tools" asp-action="Create" class="btn btn-secondary my-2">Создать новый элемент</a>
+    }
+</form>

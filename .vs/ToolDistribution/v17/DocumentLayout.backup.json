@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\tools\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\tools\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\tools\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\tools\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\toolrequests\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\toolrequests\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\toolrequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\toolrequests\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\storages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\storages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\storages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\storages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\storages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\storages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\articles\\request.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\articles\\request.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:controllers\\toolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\controllers\\toolrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:controllers\\toolrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\controllers\\storagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:controllers\\storagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|c:\\users\\alexe\\desktop\\\u043F\u043F \u044F\u043D\u0432\u0430\u0440\u044C\\tooldistribution\\tooldistribution\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653897CA-EB7D-4D30-84CD-6E7582851111}|ToolDistribution.csproj|solutionrelative:controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:05:14.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Tools\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tools\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Tools\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tools\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:04:42.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Tools\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tools\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Tools\\Details.cshtml",
+              "RelativeToolTip": "Views\\Tools\\Details.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:04:18.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\ToolRequests\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ToolRequests\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\ToolRequests\\Index.cshtml",
+              "RelativeToolTip": "Views\\ToolRequests\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:00:55.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\ToolRequests\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ToolRequests\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\ToolRequests\\Details.cshtml",
+              "RelativeToolTip": "Views\\ToolRequests\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:00:44.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Storages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Storages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Storages\\Index.cshtml",
+              "RelativeToolTip": "Views\\Storages\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:00:35.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Storages\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Storages\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Storages\\Details.cshtml",
+              "RelativeToolTip": "Views\\Storages\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:00:27.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Storages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Storages\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Storages\\Create.cshtml",
+              "RelativeToolTip": "Views\\Storages\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:00:26.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T18:00:21.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T17:08:59.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Request.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Request.cshtml",
+              "RelativeDocumentMoniker": "Views\\Articles\\Request.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Request.cshtml",
+              "RelativeToolTip": "Views\\Articles\\Request.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:53:55.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Articles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Index.cshtml",
+              "RelativeToolTip": "Views\\Articles\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:53:42.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Articles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Articles\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:53:33.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Articles\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Details.cshtml",
+              "RelativeToolTip": "Views\\Articles\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:53:05.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Articles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Articles\\Create.cshtml",
+              "RelativeToolTip": "Views\\Articles\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:52:55.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:39:38.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAswHYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:37:29.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T16:33:40.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:24:14.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ToolsController.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\ToolsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToolsController.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\ToolsController.cs",
+              "RelativeToolTip": "Controllers\\ToolsController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:23:15.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ToolRequestsController.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\ToolRequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ToolRequestsController.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\ToolRequestsController.cs",
+              "RelativeToolTip": "Controllers\\ToolRequestsController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:22:52.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StoragesController.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\StoragesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StoragesController.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\StoragesController.cs",
+              "RelativeToolTip": "Controllers\\StoragesController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:22:35.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:22:32.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\alexe\\Desktop\\\u041F\u041F \u042F\u043D\u0432\u0430\u0440\u044C\\ToolDistribution\\ToolDistribution\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:22:00.598Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

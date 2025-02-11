@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <title>Складская ведомость</title>
+</head>
+<div class="text-center">
+    <h1 class="display-4">Складская ведомость</h1>
+    <p style="text-align:left">Данное приложение помогает хранить и распределять инструменты между работниками. Доступ к базе данных инструментов осуществляется посредствам сайта.
+    Работникам, которые будут пользоваться приложением, предоставляется одна из трёх ролей, которая определит доступный функционал, необходимый для осуществления профессиональной деятельности.
+    </p>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/Работник.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 0px 0px 10px #000">Работник</h5>
+                    <p style="text-shadow: 0px 0px 10px #000">Простые рабочие имеют возможность выбирать необходимые инструменты непосредственно из склада и брать их в аренду. Это упрощает процесс получения оборудования и ускоряет выполнение производственных задач. Рабочие могут самостоятельно подобрать подходящий инструмент среди широкого ассортимента, представленного на складе.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/Кладовщики.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 0px 0px 10px #000">Кладовщик</h5>
+                    <p style="text-shadow: 0px 0px 10px #000">Кладовщики несут ответственность за учет всех инструментов, находящихся на складах. Их обязанности включают выдачу инструментов в аренду и прием их возврата после окончания работ. Кроме того, они могут вносить изменения в данные о складах и артикулах, обеспечивая тем самым актуальную информацию о состоянии запасов и условиях хранения. Кладовщики работают с множеством различных складов, каждый из которых может иметь свои особенности и требования к хранению. Это требует от них высокой степени внимательности и точности при ведении учета.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/администратор.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="text-shadow: 0px 0px 10px #000">Администратор</h5>
+                    <p style="text-shadow: 0px 0px 10px #000">Администраторы обладают всеми функциями, доступными кладовщикам, такими как управление инструментом и контроль над складами. Однако их роль гораздо шире. Администраторы также управляют пользовательскими аккаунтами сотрудников, определяя уровни доступа и контролируя использование системных ресурсов. Это включает настройку прав доступа, мониторинг активности пользователей и обеспечение безопасности всей информационной инфраструктуры компании.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <a typeof="btn btn-success" class="btn btn-secondary my-2" asp-area="Identity" asp-page="/Account/Login">Начать работу</a>
+    }
+</div>

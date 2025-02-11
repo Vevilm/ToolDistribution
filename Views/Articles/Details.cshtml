@@ -1,0 +1,92 @@
+﻿@model ToolDistribution.SearchData.ArticlesDetailsData
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Информация об артикуле @Model.article.ID </h1>
+<br>
+<div class="row">
+    <div class="col-md-3">Наименование:</div>
+    <div class="col-md-3">@Model.article.Name</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Вес:</div>
+    <div class="col-md-3">@Model.article.Weight</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Описание:</div>
+    <div style="width: 40%" class="col-md-3"><label style="border: none;">@Model.article.Description</label></div>
+</div>
+<br>
+@if (!User.IsInRole("Рабочий"))
+{
+<a typeof="btn btn-success" asp-controller="Articles" asp-action="Edit" asp-route-id="@Model.article.ID" class="btn btn-secondary my-2">Редактировать</a>
+}
+
+@if(Model.toolsCount.Any()){
+<h2>Наличие на складах</h2>
+<br>
+<div class="row">
+    <div class="col-md-3"><b>Слад</b></div>
+    <div class="col-md-3"><b>Доступны к выдаче</b></div>
+    <div class="col-md-3"><b>Всего</b></div>
+</div>
+<br>
+@foreach (var item in Model.toolsCount)
+{
+    <div class="row">
+        <div class="col-md-3">@item.Storage</div>
+        <div class="col-md-3">@item.avaliable</div>
+        <div class="col-md-3">@item.total</div>
+    </div>
+    <br>
+}
+@* 
+@if (Model.TotalPages > 1)
+{
+    <ul class="pagination" style="margin:auto; align-content:center">
+        @if (Model.HasPreviousPage)
+
+
+
+        {
+            <a asp-route-page="@(@Model.PageNumber-1)"
+               asp-route-searchDataStr="@Model.ToString(@Model.PageNumber-1)"
+               class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 1.4em; font-size: 12px; ">
+                Назад
+                <i class="glyphicon glyphicon-chevron-right"></i>
+            </a>
+
+        }
+        @for (int i = 1; i <= Model.TotalPages; i++)
+
+
+
+        {
+            <li class="page-item">
+
+                <a asp-route-page="@i"
+                   asp-route-searchDataStr="@Model.ToString(i)"
+                   class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 0.7em; font-size: 12px; ">
+                    @i
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                </a>
+            </li>
+        }
+        @if (Model.HasNextPage)
+
+
+
+        {
+            <a asp-route-page="@(@Model.PageNumber+1)"
+               asp-route-searchDataStr="@Model.ToString(@Model.PageNumber+1)"
+               class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 1.4em; font-size: 12px; ">
+                Вперёд
+                <i class="glyphicon glyphicon-chevron-right"></i>
+            </a>
+        }
+    </ul>
+} *@
+}

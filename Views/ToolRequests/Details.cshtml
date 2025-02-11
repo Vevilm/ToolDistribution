@@ -1,0 +1,60 @@
+﻿@model ToolDistribution.Models.DBmodels.Views.ToolRequestsView
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Информация о запросе №@Model.RequestID</h1>
+<br>
+<div class="row">
+    <div class="col-md-3">Запрошен: </div>
+    <div class="col-md-3">@Model.Requested.ToString()</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Возвращён: </div>
+    <div class="col-md-3">@((Model.Returned < Model.Requested ? "-/-" : Model.Returned))</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Статус: </div>
+    <div class="col-md-3">@Model.RequestStatus</div>
+</div>
+<br>
+<h2>Пользователь</h2>
+<br>
+<div class="row">
+    <div class="col-md-3">Логин пользователя: </div>
+    <div class="col-md-3">@Model.UserLogin</div>
+</div>
+<div class="row">
+    <div class="col-md-3">ФИО: </div>
+    <div class="col-md-3">@Model.UserSurname @Model.UserName @Model.UserPatronymic</div>
+</div>
+<br>
+<h2>Инструмент</h2>
+<br>
+<div class="row">
+    <div class="col-md-3">Код: </div>
+    <div class="col-md-3">@Model.ToolID</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Артикул: </div>
+    <div class="col-md-3">@Model.ToolArticle</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Название: </div>
+    <div class="col-md-3">@Model.ToolName</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Вес: </div>
+    <div class="col-md-3">@Model.ToolWeight</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Описание:</div>
+    <div style="max-width: 40%" class="col-md-3"><label style="border: none;">@Model.ToolDescription</label></div>
+</div>
+<br>
+@if (!User.IsInRole("Рабочий"))
+    {
+<a typeof="btn btn-success" asp-controller="ToolRequests" asp-action="Edit" asp-route-id="@Model.RequestID" class="btn btn-secondary my-2">Редактировать</a>
+    }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolDistribution", "ToolDistribution.csproj", "{653897CA-EB7D-4D30-84CD-6E7582851111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653897CA-EB7D-4D30-84CD-6E7582851111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653897CA-EB7D-4D30-84CD-6E7582851111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653897CA-EB7D-4D30-84CD-6E7582851111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653897CA-EB7D-4D30-84CD-6E7582851111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DCD0BA8-5D11-4747-B0B5-8F8E88CFD8D3}
+	EndGlobalSection
+EndGlobal

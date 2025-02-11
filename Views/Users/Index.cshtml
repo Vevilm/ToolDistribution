@@ -1,0 +1,89 @@
+﻿@using ToolDistribution.Enums
+@using ToolDistribution.SearchData
+@model UserSearchData
+@{
+}
+
+
+<form method="post" asp-action="Index">
+    <h1>Пользователи</h1>
+    <form>
+    <input asp-for="Login" style="display: inline; width: 40%;" class="form-control" autocomplete="off" type="search">
+        <p style="display: inline;"> Должность</p>
+        <select asp-for="Role" class="form-control" style="display: inline; width: 10%;">
+        <option value="Все">Все</option>
+        @for (int i = 0; i < Enum.GetNames(typeof(UserRoles)).Length; i++)
+        {
+            <option value="@Enum.ToObject(typeof(UserRoles), i)">@Enum.ToObject(typeof(UserRoles), i)</option>
+        }
+    </select>
+        <p style="display: inline;"> Статус</p>
+        <select asp-for="Status" class="form-control" style="display: inline; width: 10%;">
+        <option value="Все">Все</option>
+        @for (int i = 0; i < Enum.GetNames(typeof(UserStaus)).Length; i++)
+        {
+            <option value="@Enum.ToObject(typeof(UserStaus), i)">@Enum.ToObject(typeof(UserStaus), i)</option>
+        }
+    </select>
+        <button type="submit" style="vertical-align: baseline;" class="btn btn-primary">Поиск</button>
+    </form>
+    <br>
+    <h2>Каталог Пользователей</h2>
+    <br>
+    <div class="row">
+        <div class="col-md-3"><b>Логин</b></div>
+        <div class="col-md-3"><b>Фамилия</b></div>
+        <div class="col-md-3"><b>Статус</b></div>
+    </div>
+    <br>
+    @foreach (var item in Model.Users)
+    {
+            <div class="row" asp-controller="Users" asp-action="Details" asp-route-id="@item.Id">
+                <div class="col-md-3">@item.UserName</div>
+                <div class="col-md-3">@item.Surname</div>
+                <div class="col-md-3">@item.Status</div>
+                <a typeof="btn btn-success" asp-controller="Users" asp-action="Details" asp-route-id="@item.Id">Подробнее</a>
+            </div>
+            <br>
+    }
+
+    @if(Model.TotalPages > 1){
+    <ul class="pagination" style="margin:auto; align-content:center">
+            @if (Model.HasPreviousPage)
+            {
+            <a asp-route-page="@(@Model.PageNumber-1)"
+               asp-route-searchDataStr="@Model.ToString(@Model.PageNumber-1)"
+                   class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 1.4em; font-size: 12px; ">
+                Назад
+                <i class="glyphicon glyphicon-chevron-right"></i>
+            </a>
+                
+        }
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+            <li class="page-item">
+
+                <a  asp-route-page="@i"
+                    asp-route-searchDataStr="@Model.ToString(i)"
+                       class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 0.7em; font-size: 12px; ">
+                    @i
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                </a>
+            </li>
+            }
+            @if (Model.HasNextPage)
+        {
+            <a asp-route-page="@(@Model.PageNumber+1)"
+               asp-route-searchDataStr="@Model.ToString(@Model.PageNumber+1)"
+                   class="btn btn-lg btn-block btn-outline-primary" style="margin: 0.1em; padding: 0.7em 1.4em; font-size: 12px; ">
+                    Вперёд
+                <i class="glyphicon glyphicon-chevron-right"></i>
+            </a>
+            }
+        </ul>
+    }
+
+    <br>
+    <a typeof="btn btn-success" class="btn btn-secondary my-2" id="register" asp-area="Identity" asp-page="/Account/Register">Создать новый элемент</a>
+    
+</form>

@@ -1,0 +1,69 @@
+﻿@using ToolDistribution.Enums
+@using ToolDistribution.SearchData
+@model UserDetailsData
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<h1>Информация о пользователе "@Model.user.UserName"</h1>
+<br>
+<div class="row">
+    <div class="col-md-3">Фамилия: </div>
+    <div class="col-md-3">@Model.user.Surname</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Имя: </div>
+    <div class="col-md-3">@Model.user.Name</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Отчество: </div>
+    <div class="col-md-3">@Model.user.Patronymic</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Роль в системе: </div>
+    <div class="col-md-3">@Model.role</div>
+</div>
+<div class="row">
+    <div class="col-md-3">Идентификатор: </div>
+    <div class="col-md-3">@Model.user.Id</div>
+</div>
+<br>
+@if (Model.role == "Рабочий")
+{
+    @if (Model.toolRequestsViews == null)
+    {
+        <p>Активные запросы инструментов не найдены.</p>
+    }
+    else
+    {
+        <br>
+        <h2>Аренды в процессе</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-3"><b>Статус</b></div>
+            <div class="col-md-3"><b>Наименование</b></div>
+            <div class="col-md-3"><b>Склад</b></div>
+            <div class="col-md-3"><b>Дата аренды</b></div>
+        </div>
+        <br>
+        @foreach (var item in Model.toolRequestsViews)
+        {
+            <div class="row" asp-controller="ToolRequests" asp-action="Details" asp-route-id="@item.RequestID">
+                <div class="col-md-3">@item.RequestStatus</div>
+                <div class="col-md-3">@item.ToolName</div>
+                <div class="col-md-3">@item.StorageName</div>
+                <div class="col-md-3">@item.Requested</div>
+                <a typeof="btn btn-success" asp-controller="ToolRequests" asp-action="Details" asp-route-id="@item.RequestID">Подробнее</a>
+            </div>
+            <br>
+        }
+        <br>
+    }
+}
+@if (User.IsInRole("Администратор"))
+{
+    <a typeof="btn btn-success" asp-controller="Users" asp-action="Edit" asp-route-id="@Model.user.Id" class="btn btn-secondary my-2">Редактировать</a>
+}
